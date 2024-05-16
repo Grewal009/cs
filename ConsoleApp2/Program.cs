@@ -17,6 +17,9 @@ class Program
         
         s1.HearMessage("Hello!",s2);
         s1.SpeakTo(s2,"Hei!");
-      
+        
+        Random random = new Random();
+        int num = random.Next(100,150);
+        Console.WriteLine(num);
     }
 }
