@@ -31,5 +31,19 @@ class Program
         int flip = random.Next(2);
         Console.WriteLine(Convert.ToBoolean(flip)+" "+flip);
         Console.WriteLine(Convert.ToBoolean(100)); //if 0 then False else True
+        Console.WriteLine();
+        Console.WriteLine("\t\t\tMENU");
+        Console.WriteLine("------------------------------------------------------------");
+        Console.WriteLine("Item\t\t\t\t\t\tprice");
+        MenuItem item1 = new MenuItem();
+        item1.Generator();
+        MenuItem item2= new MenuItem();
+        item2.Generator();
+        MenuItem item3 = new MenuItem();
+        item3.Generator();
+        MenuItem item4 = new MenuItem();
+        item4.Generator();
+        MenuItem item5 = new MenuItem();
+        item5.Generator();
     }
 }
